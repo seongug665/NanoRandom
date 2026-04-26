@@ -1,0 +1,17 @@
+.group {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    gap: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    .group {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+        gap: 20px;
+    }
+}

@@ -1,0 +1,11 @@
+.card {
+    padding: 20px;
+
+    background-color: whitesmoke;
+    border-radius: 8px;
+
+    font-size: 2rem;
+    
+    text-align: center;
+    user-select: none;
+}
